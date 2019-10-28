@@ -1,6 +1,10 @@
 <template>
     <header>
         <h1>TodoList</h1>
+        <div id="nav">
+            <router-link to="/">Home</router-link>|
+            <router-link to="/about">About</router-link>
+        </div>
     </header>
 </template>
 
@@ -13,7 +17,7 @@ export default {
 
 <style scoped>
 .header {
-    background: #333;
+    background: rgb(0, 0, 0);
     color: #fff;
     text-align: center;
     padding: 10px;
